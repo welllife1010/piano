@@ -10,6 +10,7 @@ keys.forEach((key) => {
 })
 
 document.addEventListener("keydown", (e) => {
+  // holding the button
   if (e.repeat) return
   // get the key pressed
   const key = e.key
